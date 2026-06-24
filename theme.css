@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.light {
+    background: white;
+    color: black;
+}
+
+.dark {
+    background: black;
+    color: white;
+}
+
+.colorful {
+    background: linear-gradient(to right, pink, yellow, cyan);
+    color: black;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+form {
+    margin-top: 20px;
+    animation: fade 1s;
+}
+
+input {
+    padding: 10px;
+    margin: 8px;
+    width: 250px;
+}
+
+#output {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#clock {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
